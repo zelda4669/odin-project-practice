@@ -5,7 +5,6 @@ body {
 
 .right {
     flex: 2;
-    margin: 2rem;
     align-self: center;
 }
 
@@ -48,8 +47,36 @@ button {
     padding: 10px;
     border-radius: 10px;
     margin-top: 1em;
+    margin-left: 2rem;
 }
 
 h2 {
     font-size: 2rem;
+    margin: 2rem;
+}
+
+fieldset {
+    display: grid;
+    position: relative;
+    background-color: #d0cfca;
+    border: 0;
+    padding: 3rem;
+    grid-template: 30px 30px 30px/ 300px 300px;
+    gap: 10px 150px;
+}
+
+p {
+    margin: 2rem;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+.input_fields {
+    margin: 1rem;
+}
+
+legend, label {
+    font-size: 1.5rem;
 }
